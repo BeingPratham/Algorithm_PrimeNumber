@@ -36,6 +36,7 @@ npm install
 
 3) Now you need to install the build file and for that you need to run this two commands:
 ```
+npm i -g node-gyp
 powershell -ExecutionPolicy Bypass -Command "node-gyp configure"
 powershell -ExecutionPolicy Bypass -Command "node-gyp build" 
 ```
