@@ -57,5 +57,6 @@ body : {
 
 Sieve is used for optimized algorithm and simple is not optimized.
 <hr>
+
 # Thank You
 
