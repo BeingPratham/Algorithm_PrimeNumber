@@ -7,7 +7,7 @@ const app = express();
 app.use(bodyParser.json());
 
 // Connect to MongoDB
-mongoose.connect('mongodb+srv://prathamupadhyayimscit19:zu2j7QHlqcSmdCcj@algorithm.tfdhuoe.mongodb.net/?retryWrites=true&w=majority&appName=Algorithm');
+mongoose.connect('MONGODB_URI');
 const db = mongoose.connection;
 db.on('error', console.error.bind(console, 'MongoDB connection error:'));
 db.once('open', () => {
